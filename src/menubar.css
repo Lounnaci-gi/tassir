@@ -1,0 +1,39 @@
+/* Styling for the sidebar menu */
+.menu {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 250px;
+    height: 100%;
+    background-color: #287dd1;
+    color: #ecf0f1;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    box-shadow: -2px 0 5px rgba(0, 0, 0, 0.1);
+    overflow-y: auto;
+    font-family: 'Arial', sans-serif;
+}
+
+.menu .liste-menu {
+    padding: 15px 20px;
+    border-bottom: 1px solid #34495e;
+    cursor: pointer;
+    text-align: right; /* Align text to the right for RTL languages */
+    transition: background-color 0.3s ease;
+}
+
+.menu .liste-menu:hover {
+    background-color: #315e8b;
+}
+
+.menu .logout {
+    background-color: #e74c3c;
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+}
+
+.menu .logout:hover {
+    background-color: #c0392b;
+}

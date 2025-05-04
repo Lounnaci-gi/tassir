@@ -1,28 +1,19 @@
+import './menubar.css';
+
 export default function Menubar() {
-    let style = {
-        fontSize: "1.2em",
-        display: "bloc",
-        justifyContent: "space-between",
-        listStyle: "none"
-    }
-    let styleli = {
-        marginBottom: "20px",
-        marginRight: "20px",
-    }
     return (
         <div>
-            <ul style={style}>
-                <li style={styleli}>لوحة التحكم</li>
-                <li style={styleli}>الطلاب</li>
-                <li style={styleli}>الغيابات</li>
-                <li style={styleli}>العقوبات</li>
-                <li style={styleli}>الاستدعاءات</li>
-                <li style={styleli}>جدول الحصص</li>
-                <li style={styleli}>التقارير</li>
-                <li style={styleli}>الملف الشخصي</li>
-                <li style={{ marginBottom: "20px",marginRight: "20px", marginTop: "150px",color:"red" }}>تسجيل الخروج</li>
-            </ul>
-            
+            <ul className="menu">
+                <li className="liste-menu">لوحة التحكم</li>
+                <li className="liste-menu">الطلاب</li>
+                <li className="liste-menu">الغيابات</li>
+                <li className="liste-menu">العقوبات</li>
+                <li className="liste-menu">الاستدعاءات</li>
+                <li className="liste-menu">جدول الحصص</li>
+                <li className="liste-menu">التقارير</li>
+                <li className="liste-menu">الملف الشخصي</li>
+                <li className="liste-menu logout">تسجيل الخروج</li>
+            </ul>        
         </div>
     )
 }
