@@ -4,7 +4,7 @@ export default function Menubar() {
     return (
         <div>
             <ul className="menu">
-                <li className="liste-menu">لوحة التحكم</li>
+                <li className="liste-menu">الرئيسية</li>
                 <li className="liste-menu">الطلاب</li>
                 <li className="liste-menu">الغيابات</li>
                 <li className="liste-menu">العقوبات</li>
