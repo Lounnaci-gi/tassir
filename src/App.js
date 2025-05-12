@@ -14,13 +14,11 @@ function App() {
 
   return (
     <>
-      <div className="App" style={{ backgroundColor: '#f0f0f0', padding: '20px' ,display: 'flex' }}>
+      <div className="App" style={{ backgroundColor: '#f0f0f0', padding: '20px', display: 'flex' }}>
         <Menubar />
+
         <Card title={cardData.title} description={cardData.description} imageUrl={cardData.imageUrl} />
-        <Card title={cardData.title} description={cardData.description} imageUrl={cardData.imageUrl} />
-        <Card title={cardData.title} description={cardData.description} imageUrl={cardData.imageUrl} />
-        <Card title={cardData.title} description={cardData.description} imageUrl={cardData.imageUrl} />
-        <Card title={cardData.title} description={cardData.description} imageUrl={cardData.imageUrl} />
+
       </div>
     </>
 
