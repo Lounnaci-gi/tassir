@@ -41,6 +41,15 @@
     font-weight: 600;
     text-decoration: none;
     transition: all 0.3s ease-in-out;
+    align-items: center;
+    justify-content: space-between;
+    gap: 5px;
+    cursor: pointer;
+}
+
+.logout i {
+    font: 3em;
+    vertical-align: middle;  
 }
 
 .logout:hover {
