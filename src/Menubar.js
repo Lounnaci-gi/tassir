@@ -12,8 +12,11 @@ export default function Menubar() {
                 <li className="liste-menu">جدول الحصص</li>
                 <li className="liste-menu">التقارير</li>
                 <li className="liste-menu">الملف الشخصي</li>
-                <li className="liste-menu logout">تسجيل الخروج</li>
-            </ul>        
+                <div className="logout">
+                    <i class='bx bxs-log-in'></i>
+                    <li className="liste-menu">تسجيل الخروج</li>
+                </div>
+            </ul>
         </div>
     )
 }
