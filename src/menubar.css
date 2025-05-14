@@ -48,9 +48,17 @@
 }
 
 .logout i {
-    font: 3em;
-    vertical-align: middle;  
+    font-size: 2em;
+    vertical-align: middle;
+    transition: all 0.3s ease-in-out;
+
 }
+
+.logout:hover i {
+    transform: rotateY(180deg);
+    
+}
+
 
 .logout:hover {
     text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #fff, 0 0 25px #fff, 0 0 30px #fff, 0 0 35px #fff;
