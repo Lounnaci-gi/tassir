@@ -1,7 +1,11 @@
 import './menubar.css';
-export default function Card({ title, description, imageUrl }) {
+export default function Card({ title, description, imageUrl, onClick }) {
   return (
-    <div className="card">
+    <div 
+      className="card" 
+      onClick={onClick}
+      style={{ cursor: 'pointer' }}
+    >
       <div className="card-header">
         <img src={imageUrl} alt={title} className="card-image" />
       </div>
